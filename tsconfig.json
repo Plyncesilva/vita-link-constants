@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "declaration": true,
+      "declarationDir": "./dist",
+      "emitDeclarationOnly": false,
+      "module": "commonjs",
+      "target": "es5",
+      "esModuleInterop": true,
+      "strict": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
+  
