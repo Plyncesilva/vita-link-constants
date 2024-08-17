@@ -7,5 +7,6 @@ var ErrorCode;
     ErrorCode[ErrorCode["INVALID_DATA"] = 1] = "INVALID_DATA";
     ErrorCode[ErrorCode["INVALID_TYPE"] = 2] = "INVALID_TYPE";
     ErrorCode[ErrorCode["INVALID_JSON"] = 3] = "INVALID_JSON";
+    ErrorCode[ErrorCode["UNKOWN"] = 4] = "UNKOWN";
 })(ErrorCode || (exports.ErrorCode = ErrorCode = {}));
 ;
