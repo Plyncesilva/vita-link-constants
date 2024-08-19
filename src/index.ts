@@ -1,11 +1,6 @@
-export enum ErrorCode {
-    MISSING_REQUIRED,
-    INVALID_DATA,
-    INVALID_TYPE,
-    INVALID_JSON,
-    INVALID_EMAIL,
-    EMAIL_EXISTS,
-    PASSWORD_REQUIREMENTS,
-    PASSWORD_COMMON,
-    UNKOWN
+import { ErrorCode } from "./errorCode";
+import * as constants from './constants';
+
+export declare namespace VLConstants {
+    export { ErrorCode, constants };
 };

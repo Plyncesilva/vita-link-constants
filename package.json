@@ -2,8 +2,7 @@
   "name": "vita-link-constants",
   "version": "1.0.0",
   "description": "Vita Link Constants",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./src/index.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -11,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "rollup-plugin-typescript": "^1.0.1"
   }
 }
