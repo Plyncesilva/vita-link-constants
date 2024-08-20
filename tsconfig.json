@@ -4,8 +4,8 @@
       "declaration": true,
       "declarationDir": "./dist",
       "emitDeclarationOnly": false,
-      "module": "commonjs",
-      "target": "es5",
+      "module": "CommonJS",
+      "target": "ES2022",
       "esModuleInterop": true,
       "strict": true
     },

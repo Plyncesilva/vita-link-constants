@@ -1,17 +1,27 @@
 {
-  "name": "vita-link-constants",
-  "version": "1.0.0",
-  "description": "Vita Link Constants",
-  "main": "./src/index.ts",
+  "name": "vitalink-constants",
+  "version": "0.0.1",
+  "description": "Vitalink Constants",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsup"
   },
+  "repository": {
+    "url": "https://github.com/Plyncesilva/vita-link-constants.git"
+  },
+  "keywords": [
+    "vitalink",
+    "constants"
+  ],
   "author": "lynxdev",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "rollup-plugin-typescript": "^1.0.1"
+    "rollup-plugin-typescript": "^1.0.1",
+    "tsup": "^8.2.4"
   }
 }
