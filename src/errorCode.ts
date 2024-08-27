@@ -7,5 +7,6 @@ export enum ErrorCode {
     EMAIL_EXISTS,
     PASSWORD_REQUIREMENTS,
     PASSWORD_COMMON,
+    NOT_FOUND_ACCOUNT,
     UNKOWN
 };

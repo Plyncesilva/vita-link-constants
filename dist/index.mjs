@@ -8,7 +8,8 @@ var ErrorCode = /* @__PURE__ */ ((ErrorCode2) => {
   ErrorCode2[ErrorCode2["EMAIL_EXISTS"] = 5] = "EMAIL_EXISTS";
   ErrorCode2[ErrorCode2["PASSWORD_REQUIREMENTS"] = 6] = "PASSWORD_REQUIREMENTS";
   ErrorCode2[ErrorCode2["PASSWORD_COMMON"] = 7] = "PASSWORD_COMMON";
-  ErrorCode2[ErrorCode2["UNKOWN"] = 8] = "UNKOWN";
+  ErrorCode2[ErrorCode2["NOT_FOUND_ACCOUNT"] = 8] = "NOT_FOUND_ACCOUNT";
+  ErrorCode2[ErrorCode2["UNKOWN"] = 9] = "UNKOWN";
   return ErrorCode2;
 })(ErrorCode || {});
 
