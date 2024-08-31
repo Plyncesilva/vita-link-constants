@@ -8,5 +8,6 @@ export enum ErrorCode {
     PASSWORD_REQUIREMENTS,
     PASSWORD_COMMON,
     NOT_FOUND_ACCOUNT,
+    INVALID_ACCOUNT_ID,
     UNKOWN
 };

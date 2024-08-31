@@ -8,7 +8,8 @@ declare enum ErrorCode {
     PASSWORD_REQUIREMENTS = 6,
     PASSWORD_COMMON = 7,
     NOT_FOUND_ACCOUNT = 8,
-    UNKOWN = 9
+    INVALID_ACCOUNT_ID = 9,
+    UNKOWN = 10
 }
 
 declare const PASSWORD_LENGTH: number;

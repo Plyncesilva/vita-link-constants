@@ -36,7 +36,8 @@ var ErrorCode = /* @__PURE__ */ ((ErrorCode2) => {
   ErrorCode2[ErrorCode2["PASSWORD_REQUIREMENTS"] = 6] = "PASSWORD_REQUIREMENTS";
   ErrorCode2[ErrorCode2["PASSWORD_COMMON"] = 7] = "PASSWORD_COMMON";
   ErrorCode2[ErrorCode2["NOT_FOUND_ACCOUNT"] = 8] = "NOT_FOUND_ACCOUNT";
-  ErrorCode2[ErrorCode2["UNKOWN"] = 9] = "UNKOWN";
+  ErrorCode2[ErrorCode2["INVALID_ACCOUNT_ID"] = 9] = "INVALID_ACCOUNT_ID";
+  ErrorCode2[ErrorCode2["UNKOWN"] = 10] = "UNKOWN";
   return ErrorCode2;
 })(ErrorCode || {});
 
