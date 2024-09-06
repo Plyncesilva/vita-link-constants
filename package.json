@@ -9,7 +9,7 @@
     "build": "tsup"
   },
   "repository": {
-    "url": "https://github.com/Plyncesilva/vita-link-constants.git"
+    "url": "https://github.com/Plyncesilva/vitalink-constants.git"
   },
   "keywords": [
     "vitalink",

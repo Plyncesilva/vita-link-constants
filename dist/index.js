@@ -37,7 +37,12 @@ var ErrorCode = /* @__PURE__ */ ((ErrorCode2) => {
   ErrorCode2[ErrorCode2["PASSWORD_COMMON"] = 7] = "PASSWORD_COMMON";
   ErrorCode2[ErrorCode2["NOT_FOUND_ACCOUNT"] = 8] = "NOT_FOUND_ACCOUNT";
   ErrorCode2[ErrorCode2["INVALID_ACCOUNT_ID"] = 9] = "INVALID_ACCOUNT_ID";
-  ErrorCode2[ErrorCode2["UNKOWN"] = 10] = "UNKOWN";
+  ErrorCode2[ErrorCode2["INVALID_AUTHORIZATION_HEADER"] = 10] = "INVALID_AUTHORIZATION_HEADER";
+  ErrorCode2[ErrorCode2["INVALID_BEARER_TOKEN"] = 11] = "INVALID_BEARER_TOKEN";
+  ErrorCode2[ErrorCode2["CORRUPTED_BEARER_TOKEN"] = 12] = "CORRUPTED_BEARER_TOKEN";
+  ErrorCode2[ErrorCode2["EXPIRED_BEARER_TOKEN"] = 13] = "EXPIRED_BEARER_TOKEN";
+  ErrorCode2[ErrorCode2["UNAUTHORIZED_RESOURCE"] = 14] = "UNAUTHORIZED_RESOURCE";
+  ErrorCode2[ErrorCode2["UNKOWN"] = 15] = "UNKOWN";
   return ErrorCode2;
 })(ErrorCode || {});
 
